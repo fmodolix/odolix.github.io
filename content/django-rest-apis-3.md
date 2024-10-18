@@ -1,6 +1,6 @@
 Title: REST API with Django - Part 3
-Date: 2024-09-11 00:00 
-Modified: 2024-09-11 00:00 
+Date: 2024-10-18 00:00 
+Modified: 2024-10-18 00:00 
 Category: Blog 
 Tags: django, drf, openapi, rest, python 
 Slug: django-rest-apis-openapi-documentation
