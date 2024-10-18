@@ -318,3 +318,5 @@ PREPROCESSING_HOOKS=[preprocess_exclude_routes]
 ## Wrap up
 
 Documentation is a key to use your API with efficiency and autonomy. DRF Spectacular provides a powerful tool to generate documentation from code.
+
+The code is available [here](https://github.com/fmodolix/todos)
