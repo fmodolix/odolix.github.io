@@ -1,5 +1,6 @@
 AUTHOR = 'Odolix'
-SITENAME = "Odolix.fr - Conseil et maitrise d'oeuvre en digitalisation"
+SITENAME = "Odolix.fr"
+SITESUBTITLE = "Conseil et maitrise d'oeuvre en digitalisation" 
 SITEURL = ""
 
 PATH = "content"
@@ -9,9 +10,9 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+TRANSLATION_FEED_ATOM = 'feeds/all-{lang}.atom.xml'
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 THEME = "theme/tuxlite_tbs"
@@ -26,7 +27,7 @@ LINKS = (
 SOCIAL = (
 )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 30
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
