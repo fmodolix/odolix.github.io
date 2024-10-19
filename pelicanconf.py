@@ -1,4 +1,4 @@
-AUTHOR = 'Frédéric Meurou'
+AUTHOR = 'Odolix'
 SITENAME = "Odolix.fr - Conseil et maitrise d'oeuvre en digitalisation"
 SITEURL = ""
 

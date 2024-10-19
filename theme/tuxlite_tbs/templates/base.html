@@ -104,6 +104,21 @@
             </div>
 
 
+            {% if pages %}
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header">
+                Pages
+                </li>
+
+            {% for page in pages %}
+                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+            </ul>
+            </div>
+            {% endif %}
+
+
             {% if categories %}
             <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
             <ul class="nav nav-list">
