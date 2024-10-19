@@ -223,7 +223,7 @@ class TodoCreateSerializer(serializers.ModelSerializer):
 
 ```
 
-![Alt Todo list schema]({static}/images/todos_create_parameters.png)
+![Alt Todo list schema]({static}/images/todo_create_parameters.png)
 The help_text attribute on the serializer field or on the model field sets the description of the parameter
 
 ## Global configuration
