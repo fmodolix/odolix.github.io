@@ -14,20 +14,16 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-THEME = 'theme/genus'
+THEME = 'theme/pelican-fh5co-marble'
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Django", "https://www.djangoproject.com/"),
+    ("A physical unit service in Django", "https://github.com/fmeurou/djangophysics")
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
 )
 
 DEFAULT_PAGINATION = 10
