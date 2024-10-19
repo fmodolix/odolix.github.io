@@ -14,12 +14,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-THEME = 'theme/pelican-fh5co-marble'
+THEME = "theme/marble"
 
 # Blogroll
 LINKS = (
     ("Django", "https://www.djangoproject.com/"),
-    ("A physical unit service in Django", "https://github.com/fmeurou/djangophysics")
+    ("Physical units", "https://github.com/fmeurou/djangophysics")
 )
 
 # Social widget
