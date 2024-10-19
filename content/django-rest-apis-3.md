@@ -1,6 +1,6 @@
 Title: REST API with Django - Part 3
-Date: 2024-09-11 00:00 
-Modified: 2024-09-11 00:00 
+Date: 2024-10-18 00:00 
+Modified: 2024-10-18 00:00 
 Category: Blog 
 Tags: django, drf, openapi, rest, python 
 Slug: django-rest-apis-openapi-documentation
@@ -318,3 +318,5 @@ PREPROCESSING_HOOKS=[preprocess_exclude_routes]
 ## Wrap up
 
 Documentation is a key to use your API with efficiency and autonomy. DRF Spectacular provides a powerful tool to generate documentation from code.
+
+The code is available [here](https://github.com/fmodolix/todos)
