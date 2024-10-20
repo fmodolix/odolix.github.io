@@ -5,15 +5,11 @@ Category: Blog
 Tags: django, drf, openapi, rest, python 
 Slug: django-rest-apis-project-structure
 Authors: Odolix
-Summary: Setup a project structure for Django REST project
+Summary: A set of posts on developing a REST API using Django: Setup a project structure for Django REST project
 
-# REST API with Django
+# Part 2 - Project structure
 
-A set of posts on developing a REST API using Django
-
-## Part 2 - Project structure
-
-### Django project and modules - reuse 
+## Django project and modules - reuse 
 
 Django has a 2 level architecture: 
 
@@ -24,7 +20,7 @@ When creating a django project, you can either include apps directly as sub fold
 
 I used to split code into different repos to enhance re-usability of the code, but with monorepo and packaging tools like PDM, it's easier to have a single repo and to deploy modules based on your needs and dependencies. 
 
-### Project structure
+## Project structure
 
 A typical project would have this file: manage.py, which is the Django CLI file. It allows to launch management commands like migrations and translations, and launch the dev server. 
 
@@ -41,7 +37,7 @@ Here is a common structure on my projects:
 - README.md: Explain what your project does
 - docker: provide a docker script to run the service
 
-### App structure
+## App structure
 
 An app is a domain code. It contains models, views, and controllers for one domain, and should not mix different domains.
 
@@ -60,7 +56,7 @@ I often use these additional files:
 - filters.py: manage django-filters classe to handle query param filtering 
 - permissions.py: manage REST permisison classes
 
-### Micro-service / Domain app
+## Micro-service / Domain app
 
 When dealing with a microservice, each app will contain a very simple model, along with serializers and viewsest. In that case, the above structure is sufficient.
 
@@ -77,6 +73,6 @@ If I deal with a domain / macro-service REST API, I have to deal with larger mod
  
 and so on.
 
-### Wrap up
+## Wrap up
 
 This is a minimal structure that can be extended, but that covers most of my needs, while keeping things organized and easy to manage and expand.

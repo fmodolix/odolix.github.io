@@ -12,7 +12,7 @@ Summary: Building a front end to the emoticon service using the Livewire like Dj
 ## Django-Unicorn, Hotwire, Livewire
 
 [Django-Unicorn](https://www.django-unicorn.com/) is a young but promising extension to Django to handle dynamic front ends using Django's template rendering. 
-It follows the concepts developped on Livewire - "Building modern Web Apps is hard" - and ports it to Django. 
+It follows the concepts developed on Livewire - "Building modern Web Apps is hard" - and ports it to Django. 
 These concepts gained traction when they were implemented by 37signals on their Hey.com new e-mail platform using RoR.
 
 ## front end development
@@ -90,7 +90,7 @@ At first, I did not care about the front end, it was supposed to integrate with 
 
 But it was a good opportunity to do a front end POC. 
 
-![Alt Resulting fronted]({static}/images/emojis_front end.png)
+![Alt Resulting fronted]({static}/images/emojis_frontend.png)
 
 As you can see, the front end is quite bare: a list of images with search and pagination. But I did not want to reload the page every time I filter or paginate, and I did not want to build a React or Vue site.
 
@@ -237,7 +237,7 @@ Both sub-components have a **key** and an **id**,  otherwise the javascript cann
 
 #### back end
 
-The back end is also quite straigtforward: 
+The back end is also quite straightforward: 
 
 ```
 # grid.py

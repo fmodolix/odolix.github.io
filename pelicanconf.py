@@ -1,5 +1,6 @@
-AUTHOR = 'Frédéric Meurou'
-SITENAME = "Odolix.fr - Conseil et maitrise d'oeuvre en digitalisation"
+AUTHOR = 'Odolix'
+SITENAME = "Odolix.fr"
+SITESUBTITLE = "Conseil et maitrise d'oeuvre en digitalisation" 
 SITEURL = ""
 
 PATH = "content"
@@ -9,27 +10,24 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+TRANSLATION_FEED_ATOM = 'feeds/all-{lang}.atom.xml'
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+THEME = "theme/tuxlite_tbs"
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Django", "https://www.djangoproject.com/"),
+    ("Physical units", "https://github.com/fmeurou/djangophysics")
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
 )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 30
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
