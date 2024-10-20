@@ -11,7 +11,7 @@ Summary: A set of posts on developing a REST API using Django: How to document a
 
 ## DRF Spectacular 
 
-[DRF Spectacular](https://) is a DRF module for documenting APIs using OpenAPI and Redoc documentation. It is an active package and provides the latest OpenAPI specification: OpenAPI 3.2.
+[DRF Spectacular](https://drf-spectacular.readthedocs.io/en/latest/readme.html) is a DRF module for documenting APIs using OpenAPI and Redoc documentation. It is an active package and provides the latest OpenAPI specification: OpenAPI 3.2.
 
 ### SwaggerUI
 

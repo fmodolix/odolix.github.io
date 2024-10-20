@@ -9,6 +9,8 @@ Summary: Odolix, la solution de digitalisation de vos processus métier.
 
 # Votre partenaire pour la digitalisation de vos processus métier
 
+![Alt Odolix logo]({static}/images/odolix.png)
+
 Forte de 20 années d'expérience dans l'analyse et le développements de solutions Web et Saas, Odolix vous assiste dans la définition et la mise en oeuvre de vos besoin de digitalisation et d'automatisation de vos processus.
 
 Spécialiste des solutions basées sur les frameworks Django et Vue, nous vous accompagnons dans le développement de solutions personnalisées, dans la maintenance de vos applications existantes, et dans l'intégration de solutions.

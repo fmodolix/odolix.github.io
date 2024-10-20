@@ -31,3 +31,8 @@ DEFAULT_PAGINATION = 30
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
